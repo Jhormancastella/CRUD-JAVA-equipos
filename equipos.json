@@ -1,1 +1,16 @@
-{}
+{
+    "1": {
+        "nombre": "dsds",
+        "ciudad_representa": "csd",
+        "fecha_fundacion": "1234",
+        "presidente": "dsd",
+        "jugadores": [
+            {
+                "numero_dorsal": 10,
+                "nombre_jugador": "kek",
+                "ciudad": "kq",
+                "edad": 16
+            }
+        ]
+    }
+}

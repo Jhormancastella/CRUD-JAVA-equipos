@@ -18,7 +18,8 @@ public class Jugador implements Serializable {
     @JsonProperty("edad")
     private int edad;
 
-    public Jugador() {}
+    public Jugador() {
+    }
 
     public Jugador(int numeroDorsal, String nombreJugador, String ciudad, int edad) {
         this.numeroDorsal = numeroDorsal;
@@ -28,21 +29,41 @@ public class Jugador implements Serializable {
     }
 
     // Getters y Setters
-    public int getNumeroDorsal() { return numeroDorsal; }
-    public void setNumeroDorsal(int numeroDorsal) { this.numeroDorsal = numeroDorsal; }
 
-    public String getNombreJugador() { return nombreJugador; }
-    public void setNombreJugador(String nombreJugador) { this.nombreJugador = nombreJugador; }
+    public int getNumeroDorsal() {
+        return numeroDorsal;
+    }
 
-    public String getCiudad() { return ciudad; }
-    public void setCiudad(String ciudad) { this.ciudad = ciudad; }
+    public void setNumeroDorsal(int numeroDorsal) {
+        this.numeroDorsal = numeroDorsal;
+    }
 
-    public int getEdad() { return edad; }
-    public void setEdad(int edad) { this.edad = edad; }
+    public String getNombreJugador() {
+        return nombreJugador;
+    }
+
+    public void setNombreJugador(String nombreJugador) {
+        this.nombreJugador = nombreJugador;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 
     @Override
     public String toString() {
         return " dorsal=" + numeroDorsal + ", jugador=" + nombreJugador + ", ciudad=" + ciudad + ", edad=" + edad;
     }
 }
-    

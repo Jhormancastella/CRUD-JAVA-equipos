@@ -37,6 +37,7 @@ public class Main {
                     scanner.nextLine(); // Limpiar buffer
 
                     for (int i = 0; i < numJugadores; i++) {
+                        System.out.println("\n agregando jugador #"+(i + 1));
                         System.out.print("Número de dorsal: ");
                         int dorsal = scanner.nextInt();
                         scanner.nextLine();
@@ -78,7 +79,8 @@ public class Main {
                     scanner.nextLine();
 
                     for (int i = 0; i < numNuevosJugadores; i++) {
-                        System.out.print("Número de dorsal: ");
+
+                        System.out.print("\n Número de dorsal: ");
                         int dorsal = scanner.nextInt();
                         scanner.nextLine();
                         System.out.print("Nombre del jugador: ");
